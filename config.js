@@ -108,9 +108,9 @@ window.CONFIG = {
     corLegenda: "#ffffff",
     posicao: {
       left: 8,
-      top: 48,
+      top: 65.97,
       width: 84,
-      height: 16
+      height: 11
     }
   },
 
