@@ -67,3 +67,4 @@ A opção **Mostrar texto “Voltar”** pode ser desmarcada. O texto e o visual
 ## Manual do Convidado
 
 Para usar esta tela, coloque sua arte em `assets/manual.webp` e deixe `manual: true` dentro de `telas` no `config.js`. A área do botão e o botão Voltar podem ser ajustados em `?editor=1`.
+
