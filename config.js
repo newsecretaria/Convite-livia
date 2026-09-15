@@ -101,7 +101,7 @@ window.CONFIG = {
   // Exemplo: "2026-10-03T16:00:00"
   // A posição pode ser ajustada no editor escolhendo "Contador (na tela)".
   contagem: {
-    dataEvento: "2026-10-03T16:00:00",
+    dataEvento: "2026-10-17T16:00:00",
     textoFinal: "A festa começou!",
     corNumero: "#ffffff",
     corLegenda: "#ffffff",
