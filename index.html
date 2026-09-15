@@ -737,12 +737,10 @@
 
       Object.entries(buttons).forEach(([key,el])=>{
         if(!el) return;
-        if(key === "counter"){
+        if(!el.querySelector(".resize")){
           const resizeHandle = document.createElement("span");
           resizeHandle.className = "resize";
           el.appendChild(resizeHandle);
-        } else {
-          el.innerHTML = '<span class="resize"></span>';
         }
         el.addEventListener("pointerdown", e=>{
           if(!document.body.classList.contains("editor-on")) return;
